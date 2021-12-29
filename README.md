@@ -37,3 +37,7 @@
 <img src="src/images/image_readme_film.png" />
 
 <p align="center">Aqui vemos a tela com as informações da animação selecionada anteriormente na <a href="#list">listagem</a>. Na tela é mostrado o titulo do filme, o diretor e sua sinopse. Também inteiramente responsiva, onde a sinopse e a imagem de fundo variam com o tamanho da tela.</p>
+
+<div align="center">
+  🔗<a align="center" href="https://ghibli-catalog.vercel.app/">Link do projeto já hospedado</a>🔗
+</div>
