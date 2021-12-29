@@ -29,3 +29,13 @@
         }
     }
 }
+
+@media (min-width: 700px) {
+    .container-film {
+        .content {
+            p {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}

@@ -19,6 +19,7 @@
             background-color: rgba(186, 181, 255, 0.253);
             font-weight: 700;
             font-size: 1.4rem;
+            text-align: center;
             color: white;
             padding: .5rem;
             border-radius: .3rem;
@@ -30,10 +31,24 @@
             font-size: 1.1rem;
             font-weight: 500;
             color: rgb(222, 218, 255);
-            width: 35%;
+            width: 15rem;
             padding: .5rem;
             border-radius: .3rem;
             margin-top: 1rem;
+            font-weight: 600;
+        }
+    }
+}
+
+@media (min-width: 700px) {
+    .container-main {
+        background-image: url("../images/home_pc.jpg");
+    }
+    
+    .container {
+        span {
+            width: 40%;
+            font-size: 1.6rem;
         }
     }
 }
