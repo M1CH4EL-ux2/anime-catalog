@@ -1,7 +1,7 @@
 .container-main {
     width: 100vw;
     height: 100vh;
-    background-image: url('../images/home_image.jpg');
+    background-image: url('../images/home.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -15,103 +15,25 @@
         justify-content: center;
         align-items: center;
 
-        header {
-            position: absolute;
-            top: 0;
-            width: 100%;
-            padding: 1.5rem;
-            background-color: rgba(13, 7, 34, 0.87);
-            color:rgb(222, 218, 255);
-            border-bottom: .1rem solid transparent;
-            border-image: linear-gradient(45deg, rgb(0, 153, 255), rgb(0, 0, 255));
-            border-image-slice: 1;
+        span {
+            background-color: rgba(186, 181, 255, 0.253);
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: white;
+            padding: .5rem;
+            border-radius: .3rem;
         }
 
-        form {
-            width: 100%;
-            padding: 1.5rem;
+        button {
+            border: .1rem solid rgb(35, 35, 71);
+            background: rgba(57, 32, 124, 0.384);
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: rgb(222, 218, 255);
+            width: 35%;
+            padding: .5rem;
             border-radius: .3rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 1.5rem;
-
-            .input-form {
-                position: relative;
-                padding: .9rem 0 0;
-                margin-top: .7rem;
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-
-                .form-fild {
-
-                    // outline: none;
-                    width: 85%;
-                    display: block;
-                    margin: 0 auto;
-                    border: 0;
-                    border-bottom: .2rem solid #9b9b9b;
-                    outline: 0;
-                    font-size: 1rem;
-                    color: #fff;
-                    padding: .5rem 0;
-                    background: transparent;
-                    transition: border-color 0.2s;
-
-                    &::placeholder {
-                        color: transparent;
-                    }
-                    
-                }
-
-                .form-label {
-                    position: absolute;
-                    left: 1.5rem;
-                    top: 0;
-                    transition: 2ms;
-                    font-size: 1rem;
-                    color: #9b9b9b;
-                }
-                .form-fild:placeholder-shown ~ .form-label {
-                    font-size: 1.3rem;
-                    cursor: text;
-                    top: 1.5rem;
-                }
-
-                .form-fild:focus {
-                    font-weight: 600;
-                    border-width: .3rem;
-                    border-image: linear-gradient(to right, rgb(0, 153, 255), rgb(0, 0, 255));
-                    border-image-slice: 1;
-
-                    & ~ .form-label {
-                        position: absolute;
-                        top: -.5rem;
-                        display: block;
-                        transition: 0.2s;
-                        font-size: 1rem;
-                        color: #fff;
-                        font-weight: 700;
-                    }
-                }
-            }
-
-            button {
-                border: .1rem solid rgb(35, 35, 71);
-                background: rgba(57, 32, 124, 0.384);
-                font-size: 1.1rem;
-                color: rgb(222, 218, 255);
-                width: 35%;
-                padding: .5rem;
-                border-radius: .3rem;
-                margin-top: 1rem;
-            }
+            margin-top: 1rem;
         }
     }
-
-
 }
