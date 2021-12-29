@@ -9,7 +9,7 @@
     .container {
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.418);
+        background-color: rgba(0, 0, 0, 0.61);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -42,11 +42,17 @@
                 padding: .9rem 0 0;
                 margin-top: .7rem;
                 width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
 
                 .form-fild {
 
                     // outline: none;
                     width: 85%;
+                    display: block;
+                    margin: 0 auto;
                     border: 0;
                     border-bottom: .2rem solid #9b9b9b;
                     outline: 0;
@@ -59,23 +65,13 @@
                     &::placeholder {
                         color: transparent;
                     }
-                    // border: .1rem solid rgb(35, 35, 71);
-                    // background-color: rgba(26, 14, 77, 0.438);
-                    // background-color: transparent;
-                    // border-bottom: .2rem solid transparent;
-                    // border-image: linear-gradient(45deg, rgb(0, 153, 255), rgb(0, 0, 255));
-                    // border-image-slice: 1;
-                    // border-top: none;
-                    // border-left: none;
-                    // border-right: none;
-                    // padding: .5rem;
-                    // border-radius: .3rem;
+                    
                 }
 
                 .form-label {
                     position: absolute;
+                    left: 1.5rem;
                     top: 0;
-                    display: block;
                     transition: 2ms;
                     font-size: 1rem;
                     color: #9b9b9b;
@@ -87,19 +83,18 @@
                 }
 
                 .form-fild:focus {
-                    padding: .1rem;
                     font-weight: 600;
                     border-width: .3rem;
-                    border-image: linear-gradient(to right, #ff0062, #00ffff);
+                    border-image: linear-gradient(to right, rgb(0, 153, 255), rgb(0, 0, 255));
                     border-image-slice: 1;
 
                     & ~ .form-label {
                         position: absolute;
-                        top: 0;
+                        top: -.5rem;
                         display: block;
                         transition: 0.2s;
                         font-size: 1rem;
-                        color: #2afadf;
+                        color: #fff;
                         font-weight: 700;
                     }
                 }
@@ -117,4 +112,6 @@
             }
         }
     }
+
+
 }
