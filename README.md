@@ -1,4 +1,4 @@
-<h1 align="center">Catalogo de Filmes - Studio Ghibli</h1>
+<h1 align="center">Catálogo de Filmes - Studio Ghibli</h1>
 
 <img src="https://i2.wp.com/studioghibli.com.br/wp-content/uploads/2008/07/Studio-Ghibli-Logo.jpg?fit=1920%2C1040&ssl=1" />
 
